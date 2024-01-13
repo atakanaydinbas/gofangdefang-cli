@@ -49,7 +49,7 @@ Fang IOCs from a file:
 gofangdefang-cli fangfile -i <inputfilepath> -o <outputfilepath>
 ```
 
-### Help Command
+### Help
 ``` bash
 gofangdefang-cli [command] --help
 ```
