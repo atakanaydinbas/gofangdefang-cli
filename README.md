@@ -9,7 +9,6 @@ GoFangDefan-CLI is a command-line interface (CLI) tool designed for the secure m
   - [Defang File](#defang-file)
   - [Fang](#fang)
   - [Fang File](#fang-file)
-- [Autocompletion](#autocompletion)
 - [Help](#help)
 
 ## Installation
