@@ -17,7 +17,7 @@ var defangCMD = &cobra.Command{
 	},
 }
 var DefangFileCMD = &cobra.Command{
-	Use:   "defangfile -i <filepath> -o <outputpath>",
+	Use:   "defangfile -i <inputfilepath> -o <outputfilepath>",
 	Short: "Defang an IOC from a file path",
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println(DefangFileInput)

@@ -18,7 +18,7 @@ var fangCMD = &cobra.Command{
 }
 
 var fangFileCMD = &cobra.Command{
-	Use:   "fangfile -i <filepath> -o <outputpath>",
+	Use:   "fangfile -i <inputfilepath> -o <outputfilepath>",
 	Short: "Fang an IOC from a file path",
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println(FangFileinput)

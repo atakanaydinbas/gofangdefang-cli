@@ -8,7 +8,7 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "gofangdefang",
+	Use:   "gofangdefang-cli",
 	Short: "GoFangDefang is a tool for defanging and fanging IOCs",
 	Long:  `GoFangDefang is a CLI tool for secure manipulation of Indicators of Compromise (IOCs), converting them between their original "fang" format (with special characters) and a safer "defang" format. It prevents accidental execution of potentially malicious IOCs like URLs, IPs, domains, or subdomains.`,
 }
