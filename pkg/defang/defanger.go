@@ -5,7 +5,7 @@ import (
 )
 
 func DefangerCLI(input string) string {
-	return gofangdefang.DefangAll(input)
+	return gofangdefang.DefangText(input)
 }
 
 func DefangFileCLI(inputpath string, outputpath string) string {

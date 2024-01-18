@@ -5,7 +5,7 @@ import (
 )
 
 func FangerCLI(input string) string {
-	return gofangdefang.FangAll(input)
+	return gofangdefang.FangText(input)
 }
 
 func FangFileCLI(inputpath string, outputpath string) string {
