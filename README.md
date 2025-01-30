@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="static/logo.png" width="250" title="hover text">
+</p>
+
 # GoFangDefang-CLI - Secure IOC Manipulation CLI Tool
 
 GoFangDefan-CLI is a command-line interface (CLI) tool designed for the secure manipulation of Indicators of Compromise (IOCs). It facilitates the conversion between the original "fang" format (with special characters) and a safer "defang" format, preventing accidental execution of potentially malicious IOCs such as URLs, IPs, domains, or subdomains.
